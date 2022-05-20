@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"esModuleInterop": true,
+		"target": "esnext",
+		"moduleResolution": "node",
+		"baseUrl": "./",
+		// "allowSyntheticDefaultImports": true,
+		"importsNotUsedAsValues": "error",
+		"isolatedModules": true,
+		// "noEmit": true,
+		"sourceMap": false,
+		"strict": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"useDefineForClassFields": true
+	},
+	"include": [
+		"src",
+		"types"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
